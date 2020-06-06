@@ -298,7 +298,9 @@ img {
 
 .item-work > .link {
   display: block;
+  position: relative;
 }
+
 
 .feature-title {
   color: var(--white-color);
@@ -307,6 +309,14 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   background-color: var(--bg-hero-color);
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
 
   margin-top: 0;
   margin-bottom: 0;
